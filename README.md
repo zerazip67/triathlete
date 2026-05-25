@@ -24,11 +24,6 @@ Prendre le deuxieme triathlon-app (A gauche vous ne devez pas voir le script.sql
 Des modifications peuvent être nécessaire si le port suivant est déja utilisée : 3001.
 dans backend/server.js ligne 5, 3001 par un port non utilisé
 
-SQL Server Configuration Manager
-SQL Server Network Configuration ➔ Protocols for NOMINSTANCE.
-Vérifier que le protocole TCP/IP est bien activé (Enabled).
-Faire un clic droit sur TCP/IP ➔ Properties ➔ Onglet IP Addresses ➔ Tout en bas, s'assurer que dans TCP Port, il y a bien écrit 1433.
-
 Dans VSCode -> Terminal -> New terminal
 cd backend
 npm install
